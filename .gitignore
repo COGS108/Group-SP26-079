@@ -188,3 +188,7 @@ data/*.sq*
 data/*/*.sq*
 data/*.SQ*
 data/*/*.SQ*
+data/*.zip
+data/*/*.zip
+data/*.ZIP
+data/*/*.ZIP
