@@ -1,0 +1,7 @@
+scenario,transportation_barrier,housing_cost_trouble,housing_tenure,predicted_access_disruption_score,increase_vs_baseline,percent_increase_vs_baseline
+No transportation or housing barrier,0.0,0.0,Owned or being bought,0.5094065368523879,0.0,0.0
+Transportation barrier only,1.0,0.0,Owned or being bought,0.6834938959942625,0.17408735914187456,34.174543620416934
+Housing cost trouble only,0.0,1.0,Owned or being bought,0.7070264141933649,0.19761987734097697,38.79413848162726
+Both transportation and housing barriers,1.0,1.0,Owned or being bought,0.948649464519746,0.43924292766735806,86.22640187961284
+"Renter, no listed barrier",0.0,0.0,Rented,0.6374194009974467,0.12801286414505875,25.129803974650088
+Renter with both barriers,1.0,1.0,Rented,1.187043215360126,0.6776366785077381,133.02473162100367
