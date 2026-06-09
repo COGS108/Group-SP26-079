@@ -1,0 +1,44 @@
+model,term,OR,CI_lower,CI_upper,p_value
+Full sample Logistic – delayed_medical_care,"C(housing_tenure, Treatment(reference=""Owned or being bought""))[T.Other arrangement]",1.1483,0.8523,1.5471,0.3632
+Full sample Logistic – delayed_medical_care,"C(housing_tenure, Treatment(reference=""Owned or being bought""))[T.Rented]",1.165,1.0454,1.2983,0.0057
+Full sample Logistic – delayed_medical_care,C(sex)[T.Male],0.8077,0.7346,0.8879,0.0
+Full sample Logistic – delayed_medical_care,C(race_ethnicity)[T.Black non-Hispanic],1.4935,1.1057,2.0173,0.0089
+Full sample Logistic – delayed_medical_care,C(race_ethnicity)[T.Hispanic],1.7904,1.336,2.3995,0.0001
+Full sample Logistic – delayed_medical_care,C(race_ethnicity)[T.Multiple race non-Hispanic],2.9191,1.7847,4.7745,0.0
+Full sample Logistic – delayed_medical_care,C(race_ethnicity)[T.Other non-Hispanic],1.1844,0.6423,2.184,0.5879
+Full sample Logistic – delayed_medical_care,C(race_ethnicity)[T.White non-Hispanic],2.4557,1.8849,3.1994,0.0
+Full sample Logistic – delayed_medical_care,C(education)[T.AA technical],0.9109,0.7011,1.1835,0.4847
+Full sample Logistic – delayed_medical_care,C(education)[T.Bachelor's],1.2081,1.0094,1.446,0.0392
+Full sample Logistic – delayed_medical_care,C(education)[T.Doctorate],0.9692,0.707,1.3287,0.8459
+Full sample Logistic – delayed_medical_care,C(education)[T.GED],0.7762,0.5364,1.1232,0.1791
+Full sample Logistic – delayed_medical_care,C(education)[T.HS graduate],0.9981,0.7522,1.3243,0.9893
+Full sample Logistic – delayed_medical_care,C(education)[T.Less than HS],0.5658,0.4446,0.72,0.0
+Full sample Logistic – delayed_medical_care,C(education)[T.Master's],1.1394,0.9785,1.3268,0.0929
+Full sample Logistic – delayed_medical_care,C(education)[T.Professional],1.3712,1.1387,1.651,0.0009
+Full sample Logistic – delayed_medical_care,"C(education)[T.Some college, no degree]",0.7777,0.6693,0.9036,0.001
+Full sample Logistic – delayed_medical_care,C(health_insurance)[T.Uninsured],4.0722,3.5451,4.6777,0.0
+Full sample Logistic – delayed_medical_care,transportation_barrier,1.9285,1.65,2.2541,0.0
+Full sample Logistic – delayed_medical_care,housing_cost_trouble,3.2769,2.8571,3.7585,0.0
+Full sample Logistic – delayed_medical_care,AGEP_A,0.9802,0.9779,0.9825,0.0
+Full sample Logistic – delayed_medical_care,POVRATTC_A,0.905,0.8862,0.9241,0.0
+Renter-only Logistic – delayed_medical_care,C(sex)[T.Male],0.7511,0.6463,0.8728,0.0002
+Renter-only Logistic – delayed_medical_care,C(race_ethnicity)[T.Black non-Hispanic],1.6404,1.0751,2.503,0.0217
+Renter-only Logistic – delayed_medical_care,C(race_ethnicity)[T.Hispanic],1.9028,1.2542,2.887,0.0025
+Renter-only Logistic – delayed_medical_care,C(race_ethnicity)[T.Multiple race non-Hispanic],2.648,1.3199,5.3124,0.0061
+Renter-only Logistic – delayed_medical_care,C(race_ethnicity)[T.Other non-Hispanic],2.3772,1.1142,5.0715,0.0251
+Renter-only Logistic – delayed_medical_care,C(race_ethnicity)[T.White non-Hispanic],2.8013,1.9119,4.1045,0.0
+Renter-only Logistic – delayed_medical_care,C(education)[T.AA technical],0.9492,0.6218,1.449,0.8092
+Renter-only Logistic – delayed_medical_care,C(education)[T.Bachelor's],1.3444,1.0134,1.7834,0.0401
+Renter-only Logistic – delayed_medical_care,C(education)[T.Doctorate],0.9878,0.5881,1.6593,0.963
+Renter-only Logistic – delayed_medical_care,C(education)[T.GED],0.9127,0.5497,1.5151,0.7238
+Renter-only Logistic – delayed_medical_care,C(education)[T.HS graduate],0.9798,0.6564,1.4625,0.9205
+Renter-only Logistic – delayed_medical_care,C(education)[T.Less than HS],0.5407,0.3817,0.7658,0.0005
+Renter-only Logistic – delayed_medical_care,C(education)[T.Master's],1.219,0.9594,1.5488,0.105
+Renter-only Logistic – delayed_medical_care,C(education)[T.Professional],1.192,0.8717,1.63,0.2713
+Renter-only Logistic – delayed_medical_care,"C(education)[T.Some college, no degree]",0.836,0.6657,1.0498,0.1231
+Renter-only Logistic – delayed_medical_care,C(health_insurance)[T.Uninsured],3.9802,3.2876,4.8185,0.0
+Renter-only Logistic – delayed_medical_care,transportation_barrier,2.1742,1.7617,2.6833,0.0
+Renter-only Logistic – delayed_medical_care,housing_cost_trouble,2.534,2.091,3.0707,0.0
+Renter-only Logistic – delayed_medical_care,government_rent_assistance,0.5752,0.4424,0.748,0.0
+Renter-only Logistic – delayed_medical_care,AGEP_A,0.9875,0.9836,0.9913,0.0
+Renter-only Logistic – delayed_medical_care,POVRATTC_A,0.9651,0.9331,0.9981,0.0385

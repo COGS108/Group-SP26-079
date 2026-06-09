@@ -1,0 +1,222 @@
+model,term,OR,CI_lower,CI_upper,p_value,coef,IRR
+Full sample Logistic – delayed_medical_care,"C(housing_tenure, Treatment(reference=""Owned or being bought""))[T.Other arrangement]",1.1483,0.8523,1.5471,0.3632,,
+Full sample Logistic – delayed_medical_care,"C(housing_tenure, Treatment(reference=""Owned or being bought""))[T.Rented]",1.165,1.0454,1.2983,0.0057,,
+Full sample Logistic – delayed_medical_care,C(sex)[T.Male],0.8077,0.7346,0.8879,0.0,,
+Full sample Logistic – delayed_medical_care,C(race_ethnicity)[T.Black non-Hispanic],1.4935,1.1057,2.0173,0.0089,,
+Full sample Logistic – delayed_medical_care,C(race_ethnicity)[T.Hispanic],1.7904,1.336,2.3995,0.0001,,
+Full sample Logistic – delayed_medical_care,C(race_ethnicity)[T.Multiple race non-Hispanic],2.9191,1.7847,4.7745,0.0,,
+Full sample Logistic – delayed_medical_care,C(race_ethnicity)[T.Other non-Hispanic],1.1844,0.6423,2.184,0.5879,,
+Full sample Logistic – delayed_medical_care,C(race_ethnicity)[T.White non-Hispanic],2.4557,1.8849,3.1994,0.0,,
+Full sample Logistic – delayed_medical_care,C(education)[T.AA technical],0.9109,0.7011,1.1835,0.4847,,
+Full sample Logistic – delayed_medical_care,C(education)[T.Bachelor's],1.2081,1.0094,1.446,0.0392,,
+Full sample Logistic – delayed_medical_care,C(education)[T.Doctorate],0.9692,0.707,1.3287,0.8459,,
+Full sample Logistic – delayed_medical_care,C(education)[T.GED],0.7762,0.5364,1.1232,0.1791,,
+Full sample Logistic – delayed_medical_care,C(education)[T.HS graduate],0.9981,0.7522,1.3243,0.9893,,
+Full sample Logistic – delayed_medical_care,C(education)[T.Less than HS],0.5658,0.4446,0.72,0.0,,
+Full sample Logistic – delayed_medical_care,C(education)[T.Master's],1.1394,0.9785,1.3268,0.0929,,
+Full sample Logistic – delayed_medical_care,C(education)[T.Professional],1.3712,1.1387,1.651,0.0009,,
+Full sample Logistic – delayed_medical_care,"C(education)[T.Some college, no degree]",0.7777,0.6693,0.9036,0.001,,
+Full sample Logistic – delayed_medical_care,C(health_insurance)[T.Uninsured],4.0722,3.5451,4.6777,0.0,,
+Full sample Logistic – delayed_medical_care,transportation_barrier,1.9285,1.65,2.2541,0.0,,
+Full sample Logistic – delayed_medical_care,housing_cost_trouble,3.2769,2.8571,3.7585,0.0,,
+Full sample Logistic – delayed_medical_care,AGEP_A,0.9802,0.9779,0.9825,0.0,,
+Full sample Logistic – delayed_medical_care,POVRATTC_A,0.905,0.8862,0.9241,0.0,,
+Renter-only Logistic – delayed_medical_care,C(sex)[T.Male],0.7511,0.6463,0.8728,0.0002,,
+Renter-only Logistic – delayed_medical_care,C(race_ethnicity)[T.Black non-Hispanic],1.6404,1.0751,2.503,0.0217,,
+Renter-only Logistic – delayed_medical_care,C(race_ethnicity)[T.Hispanic],1.9028,1.2542,2.887,0.0025,,
+Renter-only Logistic – delayed_medical_care,C(race_ethnicity)[T.Multiple race non-Hispanic],2.648,1.3199,5.3124,0.0061,,
+Renter-only Logistic – delayed_medical_care,C(race_ethnicity)[T.Other non-Hispanic],2.3772,1.1142,5.0715,0.0251,,
+Renter-only Logistic – delayed_medical_care,C(race_ethnicity)[T.White non-Hispanic],2.8013,1.9119,4.1045,0.0,,
+Renter-only Logistic – delayed_medical_care,C(education)[T.AA technical],0.9492,0.6218,1.449,0.8092,,
+Renter-only Logistic – delayed_medical_care,C(education)[T.Bachelor's],1.3444,1.0134,1.7834,0.0401,,
+Renter-only Logistic – delayed_medical_care,C(education)[T.Doctorate],0.9878,0.5881,1.6593,0.963,,
+Renter-only Logistic – delayed_medical_care,C(education)[T.GED],0.9127,0.5497,1.5151,0.7238,,
+Renter-only Logistic – delayed_medical_care,C(education)[T.HS graduate],0.9798,0.6564,1.4625,0.9205,,
+Renter-only Logistic – delayed_medical_care,C(education)[T.Less than HS],0.5407,0.3817,0.7658,0.0005,,
+Renter-only Logistic – delayed_medical_care,C(education)[T.Master's],1.219,0.9594,1.5488,0.105,,
+Renter-only Logistic – delayed_medical_care,C(education)[T.Professional],1.192,0.8717,1.63,0.2713,,
+Renter-only Logistic – delayed_medical_care,"C(education)[T.Some college, no degree]",0.836,0.6657,1.0498,0.1231,,
+Renter-only Logistic – delayed_medical_care,C(health_insurance)[T.Uninsured],3.9802,3.2876,4.8185,0.0,,
+Renter-only Logistic – delayed_medical_care,transportation_barrier,2.1742,1.7617,2.6833,0.0,,
+Renter-only Logistic – delayed_medical_care,housing_cost_trouble,2.534,2.091,3.0707,0.0,,
+Renter-only Logistic – delayed_medical_care,government_rent_assistance,0.5752,0.4424,0.748,0.0,,
+Renter-only Logistic – delayed_medical_care,AGEP_A,0.9875,0.9836,0.9913,0.0,,
+Renter-only Logistic – delayed_medical_care,POVRATTC_A,0.9651,0.9331,0.9981,0.0385,,
+Full sample Logistic – has_usual_place,"C(housing_tenure, Treatment(reference=""Owned or being bought""))[T.Other arrangement]",0.6252,0.4817,0.8115,0.0004,,
+Full sample Logistic – has_usual_place,"C(housing_tenure, Treatment(reference=""Owned or being bought""))[T.Rented]",0.6274,0.5722,0.6879,0.0,,
+Full sample Logistic – has_usual_place,C(sex)[T.Male],0.5519,0.5082,0.5994,0.0,,
+Full sample Logistic – has_usual_place,C(race_ethnicity)[T.Black non-Hispanic],1.4411,1.1816,1.7577,0.0003,,
+Full sample Logistic – has_usual_place,C(race_ethnicity)[T.Hispanic],1.202,0.9991,1.4461,0.0512,,
+Full sample Logistic – has_usual_place,C(race_ethnicity)[T.Multiple race non-Hispanic],1.3007,0.8144,2.0774,0.2712,,
+Full sample Logistic – has_usual_place,C(race_ethnicity)[T.Other non-Hispanic],2.544,1.4658,4.4155,0.0009,,
+Full sample Logistic – has_usual_place,C(race_ethnicity)[T.White non-Hispanic],1.171,1.0036,1.3663,0.0449,,
+Full sample Logistic – has_usual_place,C(education)[T.AA technical],0.8283,0.6582,1.0425,0.1084,,
+Full sample Logistic – has_usual_place,C(education)[T.Bachelor's],1.005,0.8395,1.2033,0.9563,,
+Full sample Logistic – has_usual_place,C(education)[T.Doctorate],0.7499,0.5937,0.9471,0.0157,,
+Full sample Logistic – has_usual_place,C(education)[T.GED],0.935,0.673,1.2991,0.6889,,
+Full sample Logistic – has_usual_place,C(education)[T.HS graduate],0.7146,0.5552,0.9197,0.009,,
+Full sample Logistic – has_usual_place,C(education)[T.Less than HS],0.7993,0.6581,0.9709,0.024,,
+Full sample Logistic – has_usual_place,C(education)[T.Master's],0.8328,0.7244,0.9575,0.0102,,
+Full sample Logistic – has_usual_place,C(education)[T.Professional],0.9958,0.8365,1.1854,0.962,,
+Full sample Logistic – has_usual_place,"C(education)[T.Some college, no degree]",0.8899,0.7757,1.021,0.0962,,
+Full sample Logistic – has_usual_place,C(health_insurance)[T.Uninsured],0.2537,0.2244,0.2869,0.0,,
+Full sample Logistic – has_usual_place,transportation_barrier,0.8292,0.7073,0.9722,0.0211,,
+Full sample Logistic – has_usual_place,housing_cost_trouble,0.9853,0.8458,1.1477,0.8491,,
+Full sample Logistic – has_usual_place,AGEP_A,1.0252,1.0228,1.0277,0.0,,
+Full sample Logistic – has_usual_place,POVRATTC_A,1.0081,0.9912,1.0253,0.3494,,
+Renter-only Logistic – has_usual_place,C(sex)[T.Male],0.5266,0.4634,0.5984,0.0,,
+Renter-only Logistic – has_usual_place,C(race_ethnicity)[T.Black non-Hispanic],1.6868,1.2866,2.2116,0.0002,,
+Renter-only Logistic – has_usual_place,C(race_ethnicity)[T.Hispanic],1.3342,1.0341,1.7213,0.0265,,
+Renter-only Logistic – has_usual_place,C(race_ethnicity)[T.Multiple race non-Hispanic],1.0666,0.5841,1.9478,0.8337,,
+Renter-only Logistic – has_usual_place,C(race_ethnicity)[T.Other non-Hispanic],3.2711,1.4842,7.2094,0.0033,,
+Renter-only Logistic – has_usual_place,C(race_ethnicity)[T.White non-Hispanic],1.254,1.0045,1.5655,0.0455,,
+Renter-only Logistic – has_usual_place,C(education)[T.AA technical],0.7955,0.5495,1.1515,0.2253,,
+Renter-only Logistic – has_usual_place,C(education)[T.Bachelor's],1.052,0.7832,1.4132,0.7362,,
+Renter-only Logistic – has_usual_place,C(education)[T.Doctorate],0.7331,0.496,1.0836,0.1194,,
+Renter-only Logistic – has_usual_place,C(education)[T.GED],0.6474,0.4181,1.0026,0.0514,,
+Renter-only Logistic – has_usual_place,C(education)[T.HS graduate],0.8348,0.5732,1.2156,0.3462,,
+Renter-only Logistic – has_usual_place,C(education)[T.Less than HS],0.7689,0.5761,1.0262,0.0743,,
+Renter-only Logistic – has_usual_place,C(education)[T.Master's],0.7982,0.6416,0.9931,0.0431,,
+Renter-only Logistic – has_usual_place,C(education)[T.Professional],0.9157,0.6957,1.2053,0.5298,,
+Renter-only Logistic – has_usual_place,"C(education)[T.Some college, no degree]",0.8238,0.6673,1.0169,0.0712,,
+Renter-only Logistic – has_usual_place,C(health_insurance)[T.Uninsured],0.2852,0.2407,0.3378,0.0,,
+Renter-only Logistic – has_usual_place,transportation_barrier,0.7492,0.6049,0.9279,0.0082,,
+Renter-only Logistic – has_usual_place,housing_cost_trouble,1.0914,0.892,1.3354,0.3957,,
+Renter-only Logistic – has_usual_place,government_rent_assistance,1.4721,1.1564,1.8741,0.0017,,
+Renter-only Logistic – has_usual_place,AGEP_A,1.0241,1.02,1.0282,0.0,,
+Renter-only Logistic – has_usual_place,POVRATTC_A,1.0003,0.9722,1.0293,0.9823,,
+Full sample Poisson – doctor_gap_yr,Intercept,,1.4205823378202929,1.5525431766723,3.2986333404532145e-68,0.3954806150513689,1.4850977797721199
+Full sample Poisson – doctor_gap_yr,"C(housing_tenure, Treatment(reference=""Owned or being bought""))[T.Other arrangement]",,0.9687704567518388,1.0828856392991109,0.39916885708544025,0.023950892168832904,1.0242400184496827
+Full sample Poisson – doctor_gap_yr,"C(housing_tenure, Treatment(reference=""Owned or being bought""))[T.Rented]",,1.0088135198166126,1.0475039781941997,0.004054106153472914,0.02759253903226952,1.027976738678456
+Full sample Poisson – doctor_gap_yr,C(sex)[T.Male],,1.1424880666410335,1.175964763124425,2.4555453345495934e-89,0.1476486422382427,1.1591055640708507
+Full sample Poisson – doctor_gap_yr,C(race_ethnicity)[T.Black non-Hispanic],,0.8623627978134527,0.9266295123882833,9.614058789612365e-10,-0.11214033702183845,0.8939187987953243
+Full sample Poisson – doctor_gap_yr,C(race_ethnicity)[T.Hispanic],,0.9038802968049469,0.9766124534047896,0.0015852490147784276,-0.06236185901771322,0.9395428432205359
+Full sample Poisson – doctor_gap_yr,C(race_ethnicity)[T.Multiple race non-Hispanic],,0.9111630893771218,1.0925694279151934,0.9612465693493341,-0.0022505899146828077,0.9977519407639366
+Full sample Poisson – doctor_gap_yr,C(race_ethnicity)[T.Other non-Hispanic],,0.8798363759257642,1.0363009701057826,0.2687293361279598,-0.04618085595707162,0.9548692527808327
+Full sample Poisson – doctor_gap_yr,C(race_ethnicity)[T.White non-Hispanic],,0.9351435673569841,0.9952164537636892,0.023706009135939607,-0.03592511875828216,0.9647125296506434
+Full sample Poisson – doctor_gap_yr,C(education)[T.AA technical],,0.9424053998201972,1.0187189731998094,0.3047401491616576,-0.02038690344336393,0.9798195044204759
+Full sample Poisson – doctor_gap_yr,C(education)[T.Bachelor's],,0.9532538340572017,1.0105925901412378,0.21026419534543794,-0.018668588225977677,0.9815045905251453
+Full sample Poisson – doctor_gap_yr,C(education)[T.Doctorate],,0.949057878301511,1.0312483422952876,0.6116452371408735,-0.01075772115557729,0.989299936187563
+Full sample Poisson – doctor_gap_yr,C(education)[T.GED],,0.9105237185922311,1.0396447485195779,0.41751281373154814,-0.027428131621525968,0.9729446039918876
+Full sample Poisson – doctor_gap_yr,C(education)[T.HS graduate],,0.9847632755196747,1.1005312152965125,0.15605657459099923,0.04021949505796528,1.0410392520875675
+Full sample Poisson – doctor_gap_yr,C(education)[T.Less than HS],,1.0259173284452463,1.1158780862184863,0.0016147101541441034,0.0676143915950614,1.0699526461876077
+Full sample Poisson – doctor_gap_yr,C(education)[T.Master's],,0.9538601144727521,1.0013127613794204,0.06373323145700016,-0.022963174177646404,0.9772984729305584
+Full sample Poisson – doctor_gap_yr,C(education)[T.Professional],,0.9095665233728049,0.9587728595076457,3.5364732241025693e-07,-0.068444112227551,0.9338456491982879
+Full sample Poisson – doctor_gap_yr,"C(education)[T.Some college, no degree]",,0.9990342848887586,1.050965437498144,0.059399295710661076,0.0243715121452587,1.0246709248796706
+Full sample Poisson – doctor_gap_yr,C(health_insurance)[T.Uninsured],,1.4855715868421162,1.6073659293710199,6.099959690494212e-104,0.4351981878110549,1.5452692821420022
+Full sample Poisson – doctor_gap_yr,transportation_barrier,,0.95200885320669,1.0144874191855446,0.28329121792302914,-0.01739873272013501,0.9827517512227821
+Full sample Poisson – doctor_gap_yr,housing_cost_trouble,,0.946048096989825,1.0070143224707515,0.12820201010306378,-0.024236016096537964,0.9760553178047606
+Full sample Poisson – doctor_gap_yr,AGEP_A,,0.9956672446636526,0.9964601775523625,5.088089509918541e-84,-0.003944135682654977,0.9960636322045971
+Full sample Poisson – doctor_gap_yr,POVRATTC_A,,0.9921648707043509,0.9979550550437302,0.0008409577943447794,-0.00495651195565133,0.9950557512804074
+Renter-only Poisson – doctor_gap_yr,Intercept,,1.3372080109514235,1.544068469100776,5.1278625587991784e-23,0.3625023311389389,1.4369205706437145
+Renter-only Poisson – doctor_gap_yr,C(sex)[T.Male],,1.198985378607694,1.2684343007673418,3.083546493586098e-48,0.20962949358960284,1.2332210589932842
+Renter-only Poisson – doctor_gap_yr,C(race_ethnicity)[T.Black non-Hispanic],,0.8594496664550103,0.9682520591512771,0.0025199513259174093,-0.09186292560782137,0.9122301843734081
+Renter-only Poisson – doctor_gap_yr,C(race_ethnicity)[T.Hispanic],,0.8926576295242373,1.0131613185967525,0.11989950211594327,-0.05023835212689533,0.9510027239625698
+Renter-only Poisson – doctor_gap_yr,C(race_ethnicity)[T.Multiple race non-Hispanic],,0.8571823487824228,1.1216363543853465,0.7744383977393989,-0.019657978783914856,0.9805339793866327
+Renter-only Poisson – doctor_gap_yr,C(race_ethnicity)[T.Other non-Hispanic],,0.822753438179891,1.0386327545387968,0.1860788656215604,-0.07859676157305574,0.9244126079857662
+Renter-only Poisson – doctor_gap_yr,C(race_ethnicity)[T.White non-Hispanic],,0.9291810332888503,1.03655510970151,0.5009540016865628,-0.018774434826874832,0.981400707098424
+Renter-only Poisson – doctor_gap_yr,C(education)[T.AA technical],,0.8977866508203948,1.0555285275015887,0.5149050064890845,-0.02689060304743433,0.9734677301025618
+Renter-only Poisson – doctor_gap_yr,C(education)[T.Bachelor's],,0.9307132310652025,1.0453726374269554,0.6435314016850251,-0.013715329473766382,0.986378297128842
+Renter-only Poisson – doctor_gap_yr,C(education)[T.Doctorate],,0.8858521379304989,1.0651769563355797,0.5370117477080498,-0.029032143986640634,0.9713852397705943
+Renter-only Poisson – doctor_gap_yr,C(education)[T.GED],,0.8285621441083362,1.0090425055625818,0.07492826739982764,-0.08953078502163667,0.9143601160950648
+Renter-only Poisson – doctor_gap_yr,C(education)[T.HS graduate],,0.9353642510560496,1.1123251802286986,0.6539278107648124,0.019816664553670964,1.0200143181031343
+Renter-only Poisson – doctor_gap_yr,C(education)[T.Less than HS],,1.0005292902731577,1.150584722243649,0.048290012692775074,0.07039970876476985,1.0729369578617265
+Renter-only Poisson – doctor_gap_yr,C(education)[T.Master's],,0.908664239358978,0.9976736462242929,0.039622766971573006,-0.04905434531153173,0.9521293845244433
+Renter-only Poisson – doctor_gap_yr,C(education)[T.Professional],,0.8374252293177183,0.9350386958836039,1.3740680445404995e-05,-0.12229533113656667,0.8848869952266601
+Renter-only Poisson – doctor_gap_yr,"C(education)[T.Some college, no degree]",,0.9747745384777226,1.070637642015638,0.37223187104371414,0.02135266039262526,1.0215822597190451
+Renter-only Poisson – doctor_gap_yr,C(health_insurance)[T.Uninsured],,1.372805137408007,1.5320266544779189,3.081087922767281e-40,0.3717238308401374,1.450232416515811
+Renter-only Poisson – doctor_gap_yr,transportation_barrier,,0.9378989616848499,1.032347043705658,0.5096660114347926,-0.016139079671059136,0.9839904574689539
+Renter-only Poisson – doctor_gap_yr,housing_cost_trouble,,0.9356492186725474,1.0224218281000494,0.32713768330847637,-0.022170242423076587,0.9780737112383548
+Renter-only Poisson – doctor_gap_yr,government_rent_assistance,,0.8916242892889983,0.9643964452066003,0.00016243803008467883,-0.07548162708901764,0.9272967675184527
+Renter-only Poisson – doctor_gap_yr,AGEP_A,,0.9959302205894102,0.9974084460348968,1.1632064978392077e-18,-0.003336500677577217,0.9966690592555161
+Renter-only Poisson – doctor_gap_yr,POVRATTC_A,,0.9950984813042374,1.0083264342235334,0.6160752701955023,0.0016891950813618718,1.001690622575032
+Full sample Poisson – any_er_visit,Intercept,,0.13336303332828223,0.19853309053042864,1.4444394338821736e-71,-1.815739892604722,0.16271747038709897
+Full sample Poisson – any_er_visit,"C(housing_tenure, Treatment(reference=""Owned or being bought""))[T.Other arrangement]",,1.1340481569974556,1.5664992370646709,0.0004896393616367905,0.28731850763506106,1.3328486683532794
+Full sample Poisson – any_er_visit,"C(housing_tenure, Treatment(reference=""Owned or being bought""))[T.Rented]",,1.1852438506815486,1.3343292486252103,3.3836739202820125e-14,0.2291886323426969,1.2575792367551086
+Full sample Poisson – any_er_visit,C(sex)[T.Male],,0.8282203001217268,0.9204635767250112,4.7415912162808075e-07,-0.13567697256983727,0.8731246301452656
+Full sample Poisson – any_er_visit,C(race_ethnicity)[T.Black non-Hispanic],,1.6162087753109358,2.28248613491346,1.2455556876881073e-13,0.6526742016740218,1.920670226970959
+Full sample Poisson – any_er_visit,C(race_ethnicity)[T.Hispanic],,1.3098962324601653,1.864510505415074,7.151599549243719e-07,0.4464732386374696,1.5627908645834874
+Full sample Poisson – any_er_visit,C(race_ethnicity)[T.Multiple race non-Hispanic],,1.656863504733544,2.879692943194867,3.0127444280749486e-08,0.7813050158172841,2.184320979713902
+Full sample Poisson – any_er_visit,C(race_ethnicity)[T.Other non-Hispanic],,1.1240593969583166,2.032426221412274,0.006257859991893741,0.4130884283485439,1.5114786775879276
+Full sample Poisson – any_er_visit,C(race_ethnicity)[T.White non-Hispanic],,1.4691908192110923,2.023073101786124,2.489526653166179e-11,0.5446647394889631,1.7240302862006458
+Full sample Poisson – any_er_visit,C(education)[T.AA technical],,0.9631663761860497,1.247092124788201,0.16437006905162554,0.09164271381159726,1.0959731760414635
+Full sample Poisson – any_er_visit,C(education)[T.Bachelor's],,0.8617728168508606,1.0625570141538383,0.4097661158611239,-0.04404265791760708,0.9569131366806463
+Full sample Poisson – any_er_visit,C(education)[T.Doctorate],,0.7491392248632937,1.0468656278135051,0.15460641234336597,-0.12151492414570031,0.8855778367575797
+Full sample Poisson – any_er_visit,C(education)[T.GED],,0.7478336157506515,1.1287234527080492,0.41969724138547315,-0.0847437291549618,0.918747702484866
+Full sample Poisson – any_er_visit,C(education)[T.HS graduate],,1.2009585630812145,1.5926395272493716,6.701454028296414e-06,0.32425638017104425,1.3830018359177076
+Full sample Poisson – any_er_visit,C(education)[T.Less than HS],,0.9748058885991904,1.2176099767175117,0.13098539970788664,0.08568649271330539,1.0894647196313212
+Full sample Poisson – any_er_visit,C(education)[T.Master's],,0.7577448091617278,0.9108318144203859,7.829350916562984e-05,-0.18540281430378425,0.830769570576827
+Full sample Poisson – any_er_visit,C(education)[T.Professional],,0.721346052401392,0.906705525698322,0.00027409537452870083,-0.21228692258637633,0.8087326206188381
+Full sample Poisson – any_er_visit,"C(education)[T.Some college, no degree]",,0.9341054177717639,1.1004308794070747,0.7418940111507768,0.013767915764736627,1.0138631299822944
+Full sample Poisson – any_er_visit,C(health_insurance)[T.Uninsured],,0.6393090322923707,0.8272744124011829,1.2740972713281742e-06,-0.31849307260433074,0.7272441158458691
+Full sample Poisson – any_er_visit,transportation_barrier,,1.368607529557556,1.6341609296974986,5.777028463816177e-19,0.40246165047289734,1.4955015723471414
+Full sample Poisson – any_er_visit,housing_cost_trouble,,1.5291427958339263,1.8123206038765916,6.366821694269096e-32,0.509657719956747,1.6647212965416405
+Full sample Poisson – any_er_visit,AGEP_A,,1.0055308251275021,1.008658308410409,4.573849388221086e-19,0.007068313250305053,1.0070933527372867
+Full sample Poisson – any_er_visit,POVRATTC_A,,0.9218396934552581,0.9450474740727492,1.5898919121515192e-27,-0.06895202722419191,0.9333714554237713
+Renter-only Poisson – any_er_visit,Intercept,,0.17515648239206996,0.3163298117673039,8.585743612685084e-22,-1.4465227105309504,0.23538737668980164
+Renter-only Poisson – any_er_visit,C(sex)[T.Male],,0.7180281587294918,0.8598518056737642,1.5742204543563828e-07,-0.24112085799196514,0.7857466568864049
+Renter-only Poisson – any_er_visit,C(race_ethnicity)[T.Black non-Hispanic],,1.4976498819127886,2.554052616617699,8.391034598768442e-07,0.670789246568604,1.955780304552775
+Renter-only Poisson – any_er_visit,C(race_ethnicity)[T.Hispanic],,1.3481346348885186,2.3132806334944767,3.649067257861046e-05,0.5686942948486862,1.7659597227090875
+Renter-only Poisson – any_er_visit,C(race_ethnicity)[T.Multiple race non-Hispanic],,1.3958455237023828,3.138802284978627,0.0003526017906118171,0.7386708155464927,2.093151480250349
+Renter-only Poisson – any_er_visit,C(race_ethnicity)[T.Other non-Hispanic],,1.140910211537121,2.7001713851477147,0.010473317198721539,0.5625708109895575,1.7551789385174836
+Renter-only Poisson – any_er_visit,C(race_ethnicity)[T.White non-Hispanic],,1.4804794222818767,2.455208477458841,5.717933966400775e-07,0.6452888232355882,1.9065376021179943
+Renter-only Poisson – any_er_visit,C(education)[T.AA technical],,0.7993457229975807,1.2312318602327406,0.9423212797573496,-0.007973275798100388,0.9920584264524929
+Renter-only Poisson – any_er_visit,C(education)[T.Bachelor's],,0.7889839906940656,1.1218611073437283,0.49687066755038134,-0.061010119889526475,0.940813718796935
+Renter-only Poisson – any_er_visit,C(education)[T.Doctorate],,0.4778613891263199,1.0084088005085974,0.05536363241226753,-0.36503046297844616,0.6941755039024673
+Renter-only Poisson – any_er_visit,C(education)[T.GED],,0.7501264751586182,1.3449963400747635,0.9762267187222471,0.004438919396050267,1.0044487859923592
+Renter-only Poisson – any_er_visit,C(education)[T.HS graduate],,1.1020679952353638,1.6336034337003509,0.003412818457498866,0.2939883404205713,1.3417682591221751
+Renter-only Poisson – any_er_visit,C(education)[T.Less than HS],,0.9070471195393794,1.2592549431593958,0.42701953537675486,0.06647967593952861,1.068739242733444
+Renter-only Poisson – any_er_visit,C(education)[T.Master's],,0.6513728986352235,0.8964425050879777,0.0009605252032108821,-0.2689970562181758,0.764145505122537
+Renter-only Poisson – any_er_visit,C(education)[T.Professional],,0.6548405400480809,1.0033961685158934,0.05375302663228885,-0.20998655436723643,0.8105951448615535
+Renter-only Poisson – any_er_visit,"C(education)[T.Some college, no degree]",,0.8943645182847803,1.1587817109141025,0.7868889461434321,0.017863677835154062,1.0180241876688907
+Renter-only Poisson – any_er_visit,C(health_insurance)[T.Uninsured],,0.660985524326805,0.9191285563505326,0.0030504800902886376,-0.24917630911096939,0.7794425384485352
+Renter-only Poisson – any_er_visit,transportation_barrier,,1.3560425933246747,1.7254217875826798,4.648315712147357e-12,0.42502106758324226,1.529622644776323
+Renter-only Poisson – any_er_visit,housing_cost_trouble,,1.4179130224540022,1.7858493972351017,2.9516095796585624e-15,0.4645401214431234,1.5912822240197624
+Renter-only Poisson – any_er_visit,government_rent_assistance,,1.1210207206240224,1.3987754204214224,6.805481246180229e-05,0.22491839106098088,1.2522205196338194
+Renter-only Poisson – any_er_visit,AGEP_A,,1.001089057102345,1.0058240439262964,0.004180926722807778,0.0034478071277813443,1.0034537576515639
+Renter-only Poisson – any_er_visit,POVRATTC_A,,0.8971194271834626,0.9453688261658132,7.102562068027655e-10,-0.08237321025332993,0.9209281947073706
+Full sample Poisson – general_health,Intercept,,3.9871993589938954,4.140115338428333,0.0,1.4019063581889288,4.062938003900902
+Full sample Poisson – general_health,"C(housing_tenure, Treatment(reference=""Owned or being bought""))[T.Other arrangement]",,0.9203079928391559,0.970480283601513,3.010241646589154e-05,-0.056505541214949925,0.9450612476931234
+Full sample Poisson – general_health,"C(housing_tenure, Treatment(reference=""Owned or being bought""))[T.Rented]",,0.9610076036795907,0.9762684220568562,2.0947529295473447e-15,-0.031895332783548475,0.9686079582725482
+Full sample Poisson – general_health,C(sex)[T.Male],,0.9757686686773829,0.9883106839807996,2.5641903128907596e-08,-0.018143956827825908,0.9820196537481205
+Full sample Poisson – general_health,C(race_ethnicity)[T.Black non-Hispanic],,0.984241301811486,1.017226264551348,0.9433376233954666,0.0005976940488621173,1.000597872703542
+Full sample Poisson – general_health,C(race_ethnicity)[T.Hispanic],,1.0058958150043742,1.0388635306172997,0.007483842610288696,0.02200292966775935,1.0222467793094827
+Full sample Poisson – general_health,C(race_ethnicity)[T.Multiple race non-Hispanic],,0.89238488415779,0.9769559996833926,0.002984954327597937,-0.06858570954224193,0.9337134285232929
+Full sample Poisson – general_health,C(race_ethnicity)[T.Other non-Hispanic],,0.958759392417836,1.044469933918283,0.9745376291703463,0.0006971933165686035,1.0006974364123207
+Full sample Poisson – general_health,C(race_ethnicity)[T.White non-Hispanic],,1.0106959373506208,1.0368017207040205,0.0003239674500131308,0.02338992334765359,1.0236656128608046
+Full sample Poisson – general_health,C(education)[T.AA technical],,0.9631374011706915,1.0000792714384308,0.0509728299517158,-0.018739964360935026,0.9814345370211346
+Full sample Poisson – general_health,C(education)[T.Bachelor's],,1.0017740340612047,1.0287895128755546,0.026346769623478303,0.015077671610224382,1.0151919131441138
+Full sample Poisson – general_health,C(education)[T.Doctorate],,1.054226331270004,1.0905866288467845,7.346305534081317e-16,0.06976145284376431,1.0722523679905152
+Full sample Poisson – general_health,C(education)[T.GED],,0.9182061081456421,0.9790576943176394,0.0011424549630947097,-0.05324905059289636,0.94814384728766
+Full sample Poisson – general_health,C(education)[T.HS graduate],,0.8633940800087494,0.9115018934181152,4.767903419054872e-18,-0.11977283004894913,0.8871219412763764
+Full sample Poisson – general_health,C(education)[T.Less than HS],,0.8684377655092352,0.9044377239119128,2.2039709692521484e-31,-0.12075059061342272,0.8862549723394054
+Full sample Poisson – general_health,C(education)[T.Master's],,1.037635604372,1.0599903363603176,2.0551751735845893e-18,0.04760222951609402,1.048753409194801
+Full sample Poisson – general_health,C(education)[T.Professional],,1.0541293698992837,1.0799938597910348,1.0162669840650917e-25,0.06483527008411503,1.0669832458462594
+Full sample Poisson – general_health,"C(education)[T.Some college, no degree]",,0.9611774572113658,0.9832009255951534,1.0011031299230983e-06,-0.028269003735146087,0.9721268258778846
+Full sample Poisson – general_health,C(health_insurance)[T.Uninsured],,1.0366307497351663,1.0678395496663726,1.889363574405597e-11,0.050806642611006904,1.0521194385465533
+Full sample Poisson – general_health,transportation_barrier,,0.8786242003833716,0.9110150861081076,1.9139349595122392e-33,-0.11129691273999606,0.89467306965669
+Full sample Poisson – general_health,housing_cost_trouble,,0.8940219070007698,0.9236993157684188,1.5326236346331359e-30,-0.09569683788421923,0.9087394696933704
+Full sample Poisson – general_health,AGEP_A,,0.9959552756396433,0.9963241937259221,0.0,-0.0038677525165159558,0.9961397176042857
+Full sample Poisson – general_health,POVRATTC_A,,1.0140850420917744,1.0164501129105792,2.1882151781477054e-143,0.015151522580533889,1.015266888820429
+Renter-only Poisson – general_health,Intercept,,3.990528798359807,4.244161831813475,0.0,1.414734052484672,4.115391842188442
+Renter-only Poisson – general_health,C(sex)[T.Male],,0.9941913103258266,1.0195448330840247,0.2922854225170133,0.0067653299489988826,1.0067882664889043
+Renter-only Poisson – general_health,C(race_ethnicity)[T.Black non-Hispanic],,0.9853958689723459,1.0368774764202047,0.40793014674869743,0.010750974597094475,1.0108089739881323
+Renter-only Poisson – general_health,C(race_ethnicity)[T.Hispanic],,0.9964015828574172,1.0483570615255762,0.09257763330283274,0.021809664207349894,1.0220492334050424
+Renter-only Poisson – general_health,C(race_ethnicity)[T.Multiple race non-Hispanic],,0.884151493107787,1.0196931039788235,0.15444951791511918,-0.051812577581063966,0.9495068090301357
+Renter-only Poisson – general_health,C(race_ethnicity)[T.Other non-Hispanic],,0.9586837769478213,1.094708430807431,0.47560187573553114,0.024147026803034405,1.0244409270929635
+Renter-only Poisson – general_health,C(race_ethnicity)[T.White non-Hispanic],,0.9799723534873336,1.0218671663941592,0.9477165989796406,0.0007002953587325672,1.0007005406227765
+Renter-only Poisson – general_health,C(education)[T.AA technical],,0.9637716748271862,1.0392391025801593,0.9670701718188665,0.0007939744904883095,1.0007942897716704
+Renter-only Poisson – general_health,C(education)[T.Bachelor's],,0.9894411505000658,1.0445042362309078,0.23339957970549163,0.01646368403571854,1.0165999573079383
+Renter-only Poisson – general_health,C(education)[T.Doctorate],,1.0325717658747942,1.1113069201096537,0.0002427688112259487,0.0687946392841262,1.0712162008327282
+Renter-only Poisson – general_health,C(education)[T.GED],,0.9518957298000349,1.0576261351892966,0.9003800971142385,0.003363561944907577,1.0033692250670267
+Renter-only Poisson – general_health,C(education)[T.HS graduate],,0.8715367450457336,0.9496329209262228,1.556291444332993e-05,-0.09458851000243626,0.9097472093347211
+Renter-only Poisson – general_health,C(education)[T.Less than HS],,0.8686298770859157,0.9293007776208019,5.065112176730194e-10,-0.10708049514082386,0.8984533489506302
+Renter-only Poisson – general_health,C(education)[T.Master's],,1.030878557445017,1.0743026694790772,1.239665373517684e-06,0.05104158930281047,1.0523666595687653
+Renter-only Poisson – general_health,C(education)[T.Professional],,1.0590678980412087,1.1127753482968776,7.637260946946685e-11,0.0821231941635827,1.0855895398873592
+Renter-only Poisson – general_health,"C(education)[T.Some college, no degree]",,0.952316409044439,0.9938345226435317,0.011469118896790642,-0.027521249683656053,0.9728540094938615
+Renter-only Poisson – general_health,C(health_insurance)[T.Uninsured],,1.0056258825948485,1.0498078131171633,0.013457608202339249,0.027108614356047653,1.0274793957159993
+Renter-only Poisson – general_health,transportation_barrier,,0.8626357922944364,0.910806684566817,3.3312453726698436e-18,-0.12059365386070332,0.8863940692312675
+Renter-only Poisson – general_health,housing_cost_trouble,,0.9060748805639481,0.949972654063938,5.224597170682878e-10,-0.07497770336153765,0.9277641721202643
+Renter-only Poisson – general_health,government_rent_assistance,,0.8951918707429524,0.9388412479490137,8.296731822288851e-13,-0.08691304102458078,0.9167568124001728
+Renter-only Poisson – general_health,AGEP_A,,0.9948769705437613,0.9956308487771686,7.738038490776069e-134,-0.004757460510165932,0.995253838280136
+Renter-only Poisson – general_health,POVRATTC_A,,1.0126328567972929,1.0176737851371058,1.6966227533760584e-32,0.015036573967239017,1.015150192006632
